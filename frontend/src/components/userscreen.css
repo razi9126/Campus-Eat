@@ -1,0 +1,68 @@
+/* Style the button and place it in the middle of the container/image */
+#btn4 {
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, 250%);
+  background-color: #B02737;
+  color: white;
+  padding: 0.5% 2%;
+  border-radius: 5px;
+
+}
+
+h4{
+  font-weight: bold;
+}
+
+#btn1:hover {
+  background-color: #891421;
+}
+#btn3 {
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -200%);
+  background-color: #B02737;
+  color: white;
+  padding: 0.5% 2%;
+  border-radius: 5px;
+}
+
+#btn2:hover {
+  background-color: #891421;
+}
+
+#btn1 {
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  background-color: #B02737;
+  color: white;
+  padding: 0.5% 2%;
+  border-radius: 5px;
+}
+
+#btn3:hover {
+  background-color: #891421;
+}
+
+#btn2 {
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, 100%);
+  background-color: #B02737;
+  color: white;
+  padding: 0.5% 2%;
+  border-radius: 5px;
+}
+
+#btn4:hover {
+  background-color: #891421;
+}

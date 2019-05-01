@@ -1,0 +1,83 @@
+#items{
+	background-color: #EEEEEE;
+	width: 100%;
+	display: flex;
+  border-bottom: 1px solid #898989;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  align-items: center
+}
+
+.spacer{
+  flex: 1;  
+}
+
+#lol{
+  display: flex;
+
+}
+.VC{
+	float: right;
+	margin-right: 1%;
+	background-image: url("cart.png");
+	background-color: none;
+	background-size: cover;
+	height: 50px;
+	width: 50px;
+
+}
+
+#heading{
+	padding-top: 7%;
+	color: #626262;
+}
+
+#lol div:hover{
+  background-color: #CCC;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#heading1 {
+  color: #626262;
+  font-size: small;
+}
+
+#b2{
+  /*display: flex;*/
+  background-color: #B02737;
+  border: none;
+  color: #FFF;
+  padding-top: 1.5%;
+  align-items: center;
+  border-bottom: 1px solid #898989;
+  font-size: 15px;
+  font-weight: bolder;
+} 
+
+#b2:hover {
+  background-color: #510000;
+  color: white;
+}
+
+#b2:active {
+  background-color: #00AE00;
+}
+
+
+
+#cartbtn{
+  background-color: #B02737;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+html{
+  height: 100%;
+}
+#bg{
+  width: 100%;
+}
